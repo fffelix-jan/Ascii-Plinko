@@ -105,7 +105,7 @@ int gamePhase(int startPos)
         }
 
         // legend and bell character to make the terminal ding
-        boardPrintString += "1|5|1|0|1|0|1|5|1\n0|0|K| |0| |K|0|0\n0|0| | |K| | |0|0\u0007\n\n\n";
+        boardPrintString += "1|5|1|0|1|0|1|5|1\n0|0|K| |0| |K|0|0\n0|0| | |K| | |0|0\a\n\n\n";
         std::cout << boardPrintString;
         sleep_for(seconds(1)); // delay for fun
 
